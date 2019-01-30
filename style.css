@@ -3,16 +3,7 @@ body, html {
     height: 100%;
     margin: 0;
   }
-
-header{
-    background-image: url("header.png")
-    height: 30%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
+  
 img{
     max-width: 100%;
 }

@@ -2,6 +2,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    padding: 0;
   }
 
 img{
@@ -45,4 +46,14 @@ nav a:hover{
 
 #currentpage:hover{
     text-decoration: none;
+}
+
+.content{
+    text-align: center;
+}
+
+.content p{
+    font-size: 2vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
 }

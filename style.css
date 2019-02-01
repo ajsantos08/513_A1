@@ -3,17 +3,23 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #ccc;
+    
   }
 
 img{
     margin:auto;
     max-width: 100%;
 }
+
+hr{
+    width: 25%;
+}
 nav{
     margin: auto;
     max-width: 100%;
-    background-color: #ccc;
-    border: solid #ccc;
+    background-color: gray;
+    border: solid gray;
     list-style:none;
     text-align:center;
     font-size: 1vw;
@@ -37,7 +43,9 @@ nav a{
 
 nav a:hover{
     color: #fc7676;
-    text-decoration: underline;
+    background-color: white;
+    border-radius: 2px; 
+    text-decoration: underline; 
 }
 
 #currentpage{
@@ -45,15 +53,72 @@ nav a:hover{
 }
 
 #currentpage:hover{
+    background-color: transparent;
+    border-radius: 0px; 
     text-decoration: none;
 }
 
 .content{
+    color: gray;
     text-align: center;
+    background-color: lightgoldenrodyellow;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content h2{
+    color: #fc7676;
+    font-size: 1.875em;
+    padding-left: 4vw;
+    padding-right: 4vw;
 }
 
 .content p{
-    font-size: 2vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-size: 0.875em;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-bottom: 1vw;
+}
+
+.content img{
+    object-fit: cover;
+}
+
+.content table{
+    border-collapse: collapse;
+    width: 75%;
+    text-align: left;
+    margin-left:auto; 
+    margin-right:auto;
+}
+  
+.content td, th {
+    
+    background-color: white;
+    padding: 8px;
+  }
+  
+.content th {
+    background-color: #fc7676;
+    color:white;
+}
+  
+.content ul{
+    font-size:  0.875em;
+    padding: 0px;
+    text-align: left;
+    width: 20%;
+    align-self: center;
+    display: inline-block;
+}
+
+#contact{
+    width: 25%;
+}
+
+#note{
+    font-size: 0.5em;
 }
